@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mascotas.tinderMascotas.TinderMascotasApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 64.736 s - in com.mascotas.tinderMascotas.TinderMascotasApplicationTests

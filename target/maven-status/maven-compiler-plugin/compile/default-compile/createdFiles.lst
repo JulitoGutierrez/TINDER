@@ -1,0 +1,16 @@
+com\mascotas\tinderMascotas\servicios\FotoServicio.class
+com\mascotas\tinderMascotas\servicios\MascotaServicio.class
+com\mascotas\tinderMascotas\entidades\Zona.class
+com\mascotas\tinderMascotas\entidades\Voto.class
+com\mascotas\tinderMascotas\controladores\PortalControlador.class
+com\mascotas\tinderMascotas\errores\ErrorServicio.class
+com\mascotas\tinderMascotas\repositorios\ZonaRepositorio.class
+com\mascotas\tinderMascotas\repositorios\MascotaRepositorio.class
+com\mascotas\tinderMascotas\entidades\Foto.class
+com\mascotas\tinderMascotas\enumeraciones\Sexo.class
+com\mascotas\tinderMascotas\repositorios\VotoRepositorio.class
+com\mascotas\tinderMascotas\controladores\UsuarioController.class
+com\mascotas\tinderMascotas\entidades\Usuario.class
+com\mascotas\tinderMascotas\repositorios\FotoRepositorio.class
+com\mascotas\tinderMascotas\entidades\Mascota.class
+com\mascotas\tinderMascotas\repositorios\UsuarioRepositorio.class

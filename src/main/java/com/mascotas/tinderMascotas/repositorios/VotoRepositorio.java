@@ -1,0 +1,17 @@
+
+package com.mascotas.tinderMascotas.repositorios;
+
+import com.mascotas.tinderMascotas.entidades.Voto;
+import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface VotoRepositorio extends JpaRepository<Voto, String>{
+    @Query("SELECT c FROM Voto c WHERE c.mascota1.id = :id ORDER BY c.fecha DESC")
+    public List <Voto> buscarVotoPropio(String id);
+    
+    @Query("SELECT c FROM Voto c WHERE c.mascota2.id = :id ORDER BY c.fecha DESC")
+    public List <Voto> buscarVotoRecibidos(String id);
+}
